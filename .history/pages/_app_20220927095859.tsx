@@ -6,7 +6,6 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import Loading from "../components/Loading";
 import { auth, db } from "../config/firebase";
 import Login from "./login";
-import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   //xử lý đăng nhập

@@ -11,18 +11,19 @@ const StyledMessage = styled.p`
   padding: 15px 10px 15px 10px;
   color: #ffffff;
   border-radius: 8px;
-  margin: 10px;
+  margin: 30px;
   position: relative;
   font-size: 15px;
 `;
 const StyledSendMessage = styled(StyledMessage)`
   margin-left: auto; //đẩy sang hết bên tay phải
   background-color: #325aff;
+  padding-bottom: 10px;
 `;
 const StyleReceiverMessage = styled(StyledMessage)`
   background-color: #f1f1f1;
   color: black;
-  padding-bottom: 22px;
+  padding-bottom: 10px;
 `;
 const StyledTimestamp = styled.span`
   color: gray;
@@ -33,7 +34,8 @@ const StyledTimestamp = styled.span`
   right: 0;
   text-align: right;
   color: black;
-  padding: 25px 15px 5px 15px !important;
+  padding: 25px 15px 5px 15px;
+  margin-top: 10px;
   font-style: italic;
 `;
 
@@ -45,7 +47,7 @@ const Message = ({ message }: { message: IMessage }) => {
       : StyleReceiverMessage;
   return (
     <MessageType>
-      {message.text} <br />
+      {message.text}
       <StyledTimestamp>{message.sent_at}</StyledTimestamp>
     </MessageType>
   );

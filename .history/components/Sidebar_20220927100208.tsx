@@ -32,7 +32,6 @@ const StyledContainer = styled.div`
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-  font-size: 13px;
 `;
 const StyledHeader = styled.div`
   display: flex;

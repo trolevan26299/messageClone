@@ -22,7 +22,7 @@ const StyledSendMessage = styled(StyledMessage)`
 const StyleReceiverMessage = styled(StyledMessage)`
   background-color: #f1f1f1;
   color: black;
-  padding-bottom: 22px;
+  padding-bottom: 20px;
 `;
 const StyledTimestamp = styled.span`
   color: gray;

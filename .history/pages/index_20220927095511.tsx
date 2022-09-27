@@ -2,6 +2,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Sidebar from "../components/Sidebar";
+import "../styles/globals.css";
 
 const Home: NextPage = () => {
   return (

@@ -24,7 +24,7 @@ const StyledContainer = styled.div`
 const StyledConversationContainer = styled.div`
   flex-grow: 1;
   overflow: scroll;
-  height: 100vh;
+  height: 500px;
   ::-webkit-scrollbar {
     display: none;
   }

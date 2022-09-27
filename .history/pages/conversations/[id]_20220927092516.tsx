@@ -19,7 +19,7 @@ interface Props {
 }
 const StyledContainer = styled.div`
   display: flex;
-  font-family: "Montserrat", sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 `;
 const StyledConversationContainer = styled.div`
   flex-grow: 1;

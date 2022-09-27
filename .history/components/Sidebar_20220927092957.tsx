@@ -21,7 +21,7 @@ import { Conversation } from "../types";
 import ConversationSelect from "./ConversationSelect";
 
 const StyledContainer = styled.div`
-  height: 100vh;
+  height: 600px;
   min-width: 300px;
   max-width: 350px;
   overflow-y: scroll;
@@ -32,7 +32,6 @@ const StyledContainer = styled.div`
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-  font-size: 13px;
 `;
 const StyledHeader = styled.div`
   display: flex;
@@ -43,7 +42,6 @@ const StyledHeader = styled.div`
   z-index: 1;
   height: 80px;
   border-bottom: 1px solid whitesmoke;
-  padding: 15px;
 `;
 const StyledSearch = styled.div`
   display: flex;
